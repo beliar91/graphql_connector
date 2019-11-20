@@ -6,7 +6,7 @@ Version](https://badge.fury.io/rb/graphql_connector.svg)](https://badge.fury.io/
 Status](https://travis-ci.org/Garllon/graphql_connector.svg?branch=master)](https://travis-ci.org/Garllon/graphql_connector)
 
 An easy connector to call your `graphql` server. Currently there is no schema
-check in the code, but i will add this.
+check in the code, but I will add this.
 
 ## Installation
 
@@ -20,7 +20,7 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+Or install it yourself like this:
 
     $ gem install graphql_connector
 
@@ -61,7 +61,7 @@ GraphqlConnector.query(model, condition, selected_fields)
 
 #### selected_fields
 
-The synatx for the associations looks like the following:
+The syntax for the associations looks like the following:
 ```
 ['<attribute_name>', <association_name>: ['<attribute_name_of_the_association>']]
 ```
@@ -87,7 +87,7 @@ You can also run `bin/console` for an interactive prompt that will allow you to 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/garllon/graphql_connector. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at [https://github.com/garllon/graphql_connector](https://github.com/garllon/graphql_connector). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -95,4 +95,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the GraphqlConnector project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/graphql_connector/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the GraphqlConnector project’s codebase, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/graphql_connector/blob/master/CODE_OF_CONDUCT.md).
